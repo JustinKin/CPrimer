@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/justinkin/C/Tmp/src/temp.cpp
+iostream
+-
+string
+-
+vector
+-
+chrono
+-
+algorithm
+-
+Sales_data.h
+/home/justinkin/C/Tmp/src/Sales_data.h
+Person.h
+/home/justinkin/C/Tmp/src/Person.h
+FuckScreen.h
+/home/justinkin/C/Tmp/src/FuckScreen.h
+
+include/FuckScreen.h
+iostream
+-
+vector
+-
+
+include/Person.h
+iostream
+-
+vector
+-
+
+include/Sales_data.h
+iostream
+-
+vector
+-
+algorithm
+-
+

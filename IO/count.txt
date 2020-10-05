@@ -1,0 +1,3 @@
+SumSold = 0
+SumRevenue = 0
+

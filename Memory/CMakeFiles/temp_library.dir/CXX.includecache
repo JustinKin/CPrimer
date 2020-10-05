@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/justinkin/C/Tmp/src/function.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+Sales_data.h
+/home/justinkin/C/Tmp/src/Sales_data.h
+
+/home/justinkin/C/Tmp/src/person.cpp
+iostream
+-
+Person.h
+/home/justinkin/C/Tmp/src/Person.h
+
+include/Person.h
+iostream
+-
+vector
+-
+
+include/Sales_data.h
+iostream
+-
+vector
+-
+algorithm
+-
+

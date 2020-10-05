@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/temp.dir/src/temp.cpp.o  -o bin/temp -Wl,-rpath,/home/justinkin/C/Tmp libtemp_library.so 

@@ -1,0 +1,4 @@
+/home/justinkin/C/Tmp/CMakeFiles/rebuild_cache.dir
+/home/justinkin/C/Tmp/CMakeFiles/edit_cache.dir
+/home/justinkin/C/Tmp/CMakeFiles/temp.dir
+/home/justinkin/C/Tmp/CMakeFiles/temp_library.dir

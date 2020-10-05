@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/QinJunyou/C/Note/C++Primer/IO/build",
+  "command": "\\usr\\bin\\g++   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c D:\\QinJunyou\\C\\Note\\C++Primer\\IO\\src\\main.cpp",
+  "file": "D:/QinJunyou/C/Note/C++Primer/IO/src/main.cpp"
+},
+{
+  "directory": "D:/QinJunyou/C/Note/C++Primer/IO/build",
+  "command": "\\usr\\bin\\g++  -Dmain_library_EXPORTS @CMakeFiles/main_library.dir/includes_CXX.rsp -g   -o CMakeFiles\\main_library.dir\\src\\IOtest.cpp.obj -c D:\\QinJunyou\\C\\Note\\C++Primer\\IO\\src\\IOtest.cpp",
+  "file": "D:/QinJunyou/C/Note/C++Primer/IO/src/IOtest.cpp"
+},
+{
+  "directory": "D:/QinJunyou/C/Note/C++Primer/IO/build",
+  "command": "\\usr\\bin\\g++  -Dmain_library_EXPORTS @CMakeFiles/main_library.dir/includes_CXX.rsp -g   -o CMakeFiles\\main_library.dir\\src\\function.cpp.obj -c D:\\QinJunyou\\C\\Note\\C++Primer\\IO\\src\\function.cpp",
+  "file": "D:/QinJunyou/C/Note/C++Primer/IO/src/function.cpp"
+},
+{
+  "directory": "D:/QinJunyou/C/Note/C++Primer/IO/build",
+  "command": "\\usr\\bin\\g++  -Dmain_library_EXPORTS @CMakeFiles/main_library.dir/includes_CXX.rsp -g   -o CMakeFiles\\main_library.dir\\src\\sales_data.cpp.obj -c D:\\QinJunyou\\C\\Note\\C++Primer\\IO\\src\\sales_data.cpp",
+  "file": "D:/QinJunyou/C/Note/C++Primer/IO/src/sales_data.cpp"
+}
+]

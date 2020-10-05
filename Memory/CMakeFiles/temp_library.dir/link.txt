@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libtemp_library.so -o libtemp_library.so CMakeFiles/temp_library.dir/src/function.cpp.o CMakeFiles/temp_library.dir/src/person.cpp.o 
