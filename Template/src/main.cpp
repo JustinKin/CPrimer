@@ -60,7 +60,7 @@ int main(int argc, char *avgv[])
     out_a = "mycompare(s1.size(),s2.size()):"; out_2 = result4; */
 
 
-    vector<int> vec{1,2,3,4,5};
+/*     vector<int> vec{1,2,3,4,5};
     list<string> lst{"my","tem","m","template","nice"};
 
     auto bg =vec.begin(), ed = vec.end();
@@ -74,13 +74,15 @@ int main(int argc, char *avgv[])
     cout<<"myfind(bg, ed,3): "<<r1<<endl;
     cout<<"myfind(bg, ed,6): "<<r2<<endl;
     cout<<"myfind(bg, ed, \"my\"): "<<*r3<<endl;
-    cout<<"myfind(bg, ed, \"m\") "<<*r4<<endl;
+    cout<<"myfind(bg, ed, \"m\") "<<*r4<<endl; */
 
 
 
+vector<int> vec{1,2,3,4,5};
+list<string> lst{"my","tem","m","template","nice"};
 
-
-
+printv(vec);
+// printv(lst);
 
 
 

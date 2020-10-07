@@ -6,6 +6,8 @@
 #include <set>
 #include <vector>
 
+// using namespace std;
+
 template <typename T>
 int mycompare(const T &v1, const T &v2)
 {
@@ -121,9 +123,33 @@ Blobptr<T> Blobptr<T>::operator++()
     return ret;
 } */
 
+template <typename T>
+void printv(const T& t)
+{
+    for(size_t i =0; i< t.size(); ++i)
+    {
+        std::cout<<t[i]<<" ";
+    }
+/*     for(auto bg = t.begin(); bg != t.end(); ++bg)
+    {
+        std::cout<<*bg<<" ";
+    }
+ */    std::cout<<"\n";
+}
 
+class DebugDelete
+{
+public:
+    DebugDelete(std::ostream &s = std::cerr) :os(s) { }
+    template <typename T> void operator()(T *P) const
+    {
+        os<<"deleting unique_ptr"<<std::endl;
+        delete p;
+    }
 
-
+private:
+    std::ostream &os;
+};
 
 
 
