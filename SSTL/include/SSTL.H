@@ -5,12 +5,11 @@
 #include <memory>
 #include <set>
 #include <vector>
-
+#include <tuple>
+#include <random>
 // using namespace std;
 
-
-
-
+std::vector<int> myrand();
 
 
 #endif
