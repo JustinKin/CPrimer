@@ -13,6 +13,7 @@
 #include <utility>
 #include <memory>
 #include <random>
+
 #include "SSTL.H"
 
 using namespace std;
@@ -28,5 +29,14 @@ vector<int> myrand()
         v.push_back(u(e));
 
     return v;
+
+}
+
+namespace mynamespace
+{
+    double mm()
+    {
+        return 3.14;
+    }
 
 }

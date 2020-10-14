@@ -11,5 +11,20 @@
 
 std::vector<int> myrand();
 
+namespace mynamespace
+{
+/*     struct ms
+    {
+        double mm;
+        int ll;
+    };
+ */
+    double mm();
+    const double pi = 3.1415926;
+}
 
+namespace
+{
+    double pp = 0.618034;
+}
 #endif

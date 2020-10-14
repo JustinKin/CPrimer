@@ -37,13 +37,13 @@
 #include <tuple>
 #include <regex>
 #include <random>
+#include<iomanip>
 
 // #include <conio.h>
 // #include <windows.h>
 #include "SSTL.H"
 
 using namespace std;
-
 
 int main(int argc, char *avgv[])
 {
@@ -79,7 +79,7 @@ while(cin>>s)
         cout<<c<<" ";
 } */
 
-string pattern("[^c]ei");
+/* string pattern("[^c]ei");
 pattern = "[[:alpha:]]*" + pattern + "[[:alpha:]]*";
 regex r(pattern);
 smatch results;
@@ -90,12 +90,17 @@ if(regex_search(test_str,results,r))
 regex r2(pattern,regex::icase);
 for(sregex_iterator it(test_str.begin(),test_str.end(),r), end_it; it!=end_it; ++it)
     cout << it->str() <<endl;
+ */
 
+int i = -16;
+double b = 3.1415926;
+cout<<right<< "i:"<<i<<"\n"
+    <<"b:"<<b<<endl;
 
-
+cout<<mynamespace::mm()<<"\n"<<mynamespace::pi;
 
 //=================================================================//
-
+cout<<"\n"<<pp;
      system("pause");
     return 0;
 }

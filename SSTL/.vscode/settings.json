@@ -59,7 +59,8 @@
         "streambuf": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "regex": "cpp"
     },
     "editor.fontFamily": "Fira Code",
     "cmake.configureOnOpen": true
